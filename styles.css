@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #d3d3d3;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+.wrapper {
+  background-color: white;
+  overflow: hidden;
+  width: 80%; /* Kurangi dari 90% ke 80% */
+  max-width: 1000px; /* Sesuaikan nilai max-width */
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+
+.header {
+  background-image: url("https://fastly.picsum.photos/id/18/2500/1667.jpg?hmac=JR0Z_jRs9rssQHZJ4b7xKF82kOj8-4Ackq75D_9Wmz8");
+  background-size: cover;
+  background-position: center;
+  padding: 10px;
+  position: relative;
+  height: 100px;
+  border-bottom: 1px solid #ccc;
+}
+.header-content {
+  background-color: white;
+  padding: 10px;
+  border-radius: 0 0 10px 0;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.header h1 {
+  margin-bottom: 5px;
+  font-size: 24px;
+}
+.header p {
+  color: #848484;
+}
+.nav {
+  text-align: center;
+  margin: 10px 0;
+}
+.nav a {
+  margin: 0 10px;
+  color: rgb(40, 43, 40);
+  font-weight: sans-serif bold;
+  text-decoration: underline;
+  text-underline-offset: 7px; /* Mengatur jarak garis bawah */
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 6px;
+  gap: 20px;
+}
+.content {
+  background-color: white;
+  padding: 10px;
+  border: 2px solid #0cff79;
+  flex: 2;
+}
+.content img {
+  width: 300px;
+  height: 200px;
+  border: 2px solid #0cff79;
+  margin-right: 10px;
+  float: left;
+}
+.content p {
+  text-align: justify;
+  line-height: 1.1;
+}
+.sidebar {
+  background-color: white;
+  padding: 10px;
+  border: 2px solid #0cff79;
+  flex: 0.8;
+}
+.sidebar input,
+.sidebar button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
+.sidebar button {
+  background-color: #1e8b4e;
+  color: white;
+  border: none;
+}
+.footer {
+  text-align: center;
+  background-color: white;
+  border-top: 0 solid #ccc;
+  margin-top: 0px;
+  font-size: 12px; 
+  padding: 5px;
+  color: #444947a5; 
+}
